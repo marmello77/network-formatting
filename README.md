@@ -62,8 +62,8 @@ The required packages are: "reshape2" and "xlsx". Be sure to install them!
 
 
 (C) Advanced Instructions:
- 
- Interaction lists should follow the examples ("example.txt" and "example.xlsx"), both in formatting and column names. The names of the columns in the interaction lists should be: PARTNER_1, PARTNER_2, and WEIGHT. If the lists are in the ".txt" format, be sure to save them as a "tab-separated" file.
+
+Interaction lists should follow the examples ("example.txt" and "example.xlsx"), both in formatting and column names. The names of the columns in the interaction lists should be: PARTNER_1, PARTNER_2, and WEIGHT. If the lists are in the ".txt" format, be sure to save them as a "tab-separated" file.
 
 This script will run for all spreadsheets - in excel (.xlsx) or txt (.txt) format depending on what has been defined in "files_type" - inside the folder indicated in "dir". So be sure to (i) put in this folder only files you want to use, and (ii) all of them are structured as in the examples.
 Only files saved in newer versions of excel (.xlsx format) will be read.
