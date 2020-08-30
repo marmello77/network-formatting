@@ -5,7 +5,7 @@ How to format a matrix in R to be used in different network programs.
 Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com.
 
 Author: Gabriel Félix.
-E-mail: gabriel.felixf@hotmail.com .
+E-mail: gabriel.felixf@hotmail.com.
 
 How to cite: Félix G.M. 2016. How to format a matrix in R to be used in different network programs. Ecological Synthesis Lab of the University of São Paulo, Brazil.
 
