@@ -21,9 +21,9 @@ Disclaimer: You may use this script freely for non-comercial purposes at your ow
 
 (A) How to run the script:
 
-1. Your network must be formatted as in the attached examples, being saved in TXT or XLSX format. Even the column headings should match the example headings.
+1. Your network must be formatted as in the examples provided, saved as a TXT or XLSX file. Even the column names should match the examples.
 
-1. After downloading these files, copy them to a separate folder in which to run the analyses.
+1. After downloading these files, copy them to a separate folder in which to run the analysis.
 
 2. Open RStudio. Load the "reshape2" and "xlsx" packages. If you do not already have them, install them:
 
@@ -65,9 +65,9 @@ The required packages are: "reshape2" and "xlsx". Be sure to install them!
 
 (C) Advanced Instructions:
 
-Interaction lists should follow the examples ("example.txt" and "example.xlsx"), both in formatting and column names. The names of the columns in the interaction lists should be: PARTNER_1, PARTNER_2, and WEIGHT. If the lists are in the ".txt" format, be sure to save them as a "tab-separated" file.
+Interaction lists should follow the examples ("example.txt" and "example.xlsx"), both in terms of formatting and column names. Column names in the interaction lists should be: PARTNER_1, PARTNER_2, and WEIGHT. If the lists are in TXT format, be sure to save them as a "tab-delimited" file.
 
-This script will run for all spreadsheets - in excel (.xlsx) or txt (.txt) format depending on what has been defined in "files_type" - inside the folder indicated in "dir". So be sure to (i) put in this folder only files you want to use, and (ii) all of them are structured as in the examples.
-Only files saved in newer versions of excel (.xlsx format) will be read.
+This script will run for all spreadsheets, in XLSX or TXT format, depending on what is defined in "files_type" inside the folder indicated in "dir". So be sure to (i) put in this folder only the files you want to use, and (ii) structure all files as in the examples.
+Only files saved in recent versions of Excel will be read.
 
-The "xlsx" package needs newer versions of Java to run, and any Java-related error when running this script is probably related to this. If you can not rotate in this format, choose to save the lists of interactions in tab separated format .txt and use files_type = ". Txt".
+The "xlsx" package needs newer versions of Java to run, and any Java-related error when running this script is probably caused by Java version. If you can not rotate in this format, choose to save the lists of interactions in tab-delimited format (TXT) and use files_type = ".txt".
